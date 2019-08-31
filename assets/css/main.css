@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+.mainbanner{
+    width:100%;
+    position:relative;
+}
+.heroimage{
+    width:100%;
+    height:auto;
+}
+.logo{
+    position: absolute;
+    top:0;
+}
+.menubutton{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-40px;
+    
+}
+button{
+    width:200px;
+    height:80px;
+    font-size: 40px;
+    border-radius:10px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin: -150px auto 0 auto;
+    width:75%
+}
+.blurb{
+    z-index: 1;
+    background-color:white;
+    width:30%;
+    height:auto;
+    text-align:center;
+}
