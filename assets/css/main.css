@@ -26,6 +26,11 @@ body{
     background-color: white;
     width:200px;
     height:60px;
+    background-image:url("../images/file.png");
+    background-size:cover;
+    border-radius: 4px;
+    border: 3px solid indianred;
+
 }
 .container{
     background-image: url("../images/burger-hero.jpg");
@@ -35,7 +40,7 @@ body{
 .nav{
     display:flex;
     justify-content: space-between;
-    background-image:url("../images/linen.jpg");
+    background-image:url("../images/file.png");
     
 }
 .links{
