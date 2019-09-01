@@ -1,65 +1,29 @@
-p{
-    line-height: 0.5;
-    font-size: 12px;
+
+html{height:100%
 }
 body{
-    margin:0;
+    background-image: url("../images/burger-hero.jpg");
+    background-size:cover;
+    height:100%;
 }
-.mainbanner{
-    width:100%;
-    position:relative;
+.container{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
-.heroimage{
-    width:100%;
-    height:auto;
+.button{
+    align-self: center;
 }
-.logo{
-    position: absolute;
-    top:0;
-}
-.menubutton{
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-left:-150px;
-    margin-top:-40px;
-    
-}
-button{
-    width:200px;
-    height:80px;
-    font-size: 40px;
-    border-radius:10px;
-}
-.footer{
+.blurbcontainer{
+    align-self:center;
     display:flex;
     justify-content: space-between;
-    margin: -180px auto 0 auto;
-    width:75%
+    width:75%;
+    margin-bottom:100px;
 }
 .blurb{
-    z-index: 1;
-    background-color:#1f262a;
-    width:25%;
-    height:auto;
-    text-align:center;
-    border-radius: 10px;
-    border: 3px solid #c9554a
-    
-}
-
-.blurbcontainer{
-    display:flex;
-    justify-content: space-between;
-    margin: 0 30px;
-   
-}
-.blurbheading{
-    margin-top: 10px;
-}
-.hours{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-  
+    background-color: white;
+    width:200px;
+    height:60px;
 }
