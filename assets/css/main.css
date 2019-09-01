@@ -34,15 +34,19 @@ body{
 }
 .nav{
     display:flex;
-    justify-content: space-between
+    justify-content: space-between;
+    background-image:url("../images/linen.jpg");
+    
 }
 .links{
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    width:100%;
-    margin:0 100px;
+    width:25%;
+    
 }
 .links a {
     margin: 0 auto;
+    font-family: 'Patua One', cursive;
+
 }
