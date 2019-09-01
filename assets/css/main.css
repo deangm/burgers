@@ -1,3 +1,7 @@
+p{
+    line-height: 0.5;
+    font-size: 12px;
+}
 body{
     margin:0;
 }
@@ -30,13 +34,32 @@ button{
 .footer{
     display:flex;
     justify-content: space-between;
-    margin: -150px auto 0 auto;
+    margin: -180px auto 0 auto;
     width:75%
 }
 .blurb{
     z-index: 1;
     background-color:white;
-    width:30%;
+    width:25%;
     height:auto;
     text-align:center;
+    border-radius: 10px;
+    border: 3px solid red;
+    
+}
+
+.blurbcontainer{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 30px;
+   
+}
+.blurbheading{
+    margin-top: 10px;
+}
+.hours{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  
 }
