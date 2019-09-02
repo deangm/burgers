@@ -29,7 +29,10 @@ body{
     background-image:url("../images/file.png");
     background-size:cover;
     border-radius: 4px;
-    border: 3px solid indianred;
+    font-family: "Patua One", cursive;
+    height:auto;
+    padding:10px;
+    text-align:center;
 
 }
 .container{
@@ -41,17 +44,33 @@ body{
     display:flex;
     justify-content: space-between;
     background-image:url("../images/file.png");
-    
 }
+
 .links{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    width:25%;
+    width:30%;
     
 }
 .links a {
     margin: 0 auto;
     font-family: 'Patua One', cursive;
-
+    text-decoration: none;
+}
+p{
+    line-height: .5;
+}
+h2, h1{
+    margin:0;
+}
+.button a{
+    color:white;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: "Patua One", cursive;
+}
+iframe{
+    width:100%;
+    height:auto;
 }
