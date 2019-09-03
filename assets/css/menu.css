@@ -1,0 +1,30 @@
+.menucontainer{
+    width: 60%;
+    background-color: white;
+    height: auto;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.itemcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width:85%;
+}
+.itemname{
+    display: flex;
+    align-items: baseline;
+}
+.itemdescription{
+    width:40%;
+}
+.foodcategory, .toppings, .extra{
+    text-align:center;
+}
