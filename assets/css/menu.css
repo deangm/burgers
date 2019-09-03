@@ -17,6 +17,7 @@
     justify-content: space-between;
     margin: 0 auto;
     width:85%;
+    flex-wrap:wrap;
 }
 .itemname{
     display: flex;

@@ -9,7 +9,7 @@ body{
     height:100%;
     display:flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: url("../images/burger-hero.jpg");
     background-size:cover;
     height:100%;
@@ -21,9 +21,10 @@ body{
 .blurbcontainer{
     align-self:center;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     width:75%;
     margin-bottom:100px;
+    flex-wrap:wrap;
 }
 .blurb{
     background-color: white;
@@ -36,19 +37,21 @@ body{
     height:auto;
     padding:10px;
     text-align:center;
+    margin: 10px auto;
 
 }
 .nav{
     display:flex;
     justify-content: space-between;
     background-image:url("../images/file.png");
+    flex-wrap:wrap;
 }
 
 .links{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    width:30%;
+   
     
 }
 .links a {
@@ -66,9 +69,9 @@ body{
 .links div:hover{
     background-color: #dadfea;
 }
-p{
+/* p{
     line-height: .5;
-}
+} */
 h2, h1{
     margin:0;
 }
