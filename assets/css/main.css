@@ -84,7 +84,15 @@ h2, h1{
 .button a:hover{
     color: #a24a4a;
 }
-iframe{
-    width:100%;
-    height:auto;
+
+.video{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 40px 0;
+    background-color:black;
+}
+.video p{
+    color:white;
+    display:inline;
 }
