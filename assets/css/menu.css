@@ -1,6 +1,6 @@
 .menucontainer{
     width: 60%;
-    background-color: white;
+    background-color: rgba(255,255,255,.9);
     height: auto;
     margin-top: 10px;
     display:flex;
@@ -11,6 +11,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-image: url("../images/rustic-vegan-akOrtV3HsFs-unsplash.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+    height:auto;
 }
 .itemcontainer{
     display: flex;
