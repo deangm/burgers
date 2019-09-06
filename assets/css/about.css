@@ -1,0 +1,19 @@
+.aboutcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.photo{
+    width: 100%;
+    text-align: center;
+}
+.photo img{
+    width:25%;
+    padding:20px;
+}
+.text{
+    padding:10px 200px;
+}
+h1{
+    padding-top:20px;
+}
