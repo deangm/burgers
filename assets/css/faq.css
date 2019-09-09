@@ -1,9 +1,28 @@
-.question:hover + .answer {
-    visibility: visible;
-    height: auto;
+.answer{
+    background-color: #dadfea;
+    max-height: 0;
+    color: transparent;
+    transition: all 1s ease-in-out;
+    
 }
 
-.answer {
-    visibility: hidden;
-    height: 0px;
+
+.question:hover + .answer{
+   max-height: 500px;
+   color: black;
 }
+.answer:hover{
+    max-height: 500px;
+    color: black;
+}
+
+p, h3{
+    padding: 0;
+    margin: 0;
+    
+}
+.faq{
+    margin: 30px;
+}
+
+
