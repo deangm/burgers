@@ -1,0 +1,21 @@
+.maps {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 50px 0;
+    background-color: #dadfea;
+}
+
+.maps iframe {
+    width: 75%;
+    height: auto;
+}
+
+.maps > div {
+    width: 50%;
+    margin-right: 100px;
+    text-align: center;
+}

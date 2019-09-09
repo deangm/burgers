@@ -1,0 +1,9 @@
+.question:hover + .answer {
+    visibility: visible;
+    height: auto;
+}
+
+.answer {
+    visibility: hidden;
+    height: 0px;
+}

@@ -28,6 +28,7 @@ body{
     border-radius:10px;
     text-align: center; 
     line-height: 2em;
+    transition: all 0.8s;
 
 }
 .blurbcontainer{
@@ -99,12 +100,30 @@ h2, h1{
 
 .video{
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     padding: 40px 0;
-    background-color:black;
+    background-color: black;
 }
 .video p{
-    color:white;
-    display:inline;
+    color: white;
+    display: inline;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    transition: all .8s;
+}
+@media screen and (max-width:700px){
+    .logotext{
+        font-size: 1.5em;
+        width: 75%
+    }
+    .video p{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 880px){
+    .blurbcontainer{
+        flex-direction: column;
+    }
 }
