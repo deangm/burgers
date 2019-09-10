@@ -33,3 +33,12 @@
 .foodcategory, .toppings, .extra{
     text-align:center;
 }
+@media screen and (max-width:700px){
+    p{
+        font-size: 0.5em;
+        
+    }
+    h2, h1, h3{
+        font-size: .75em;
+    }
+}
