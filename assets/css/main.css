@@ -120,6 +120,46 @@ h2, h1{
     font-size: 1.5em;
     transition: all .8s;
 }
+.modal_container{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.form_title{
+    padding: 20px;
+}
+.modal_container{
+    background-color: white;
+}
+.iframe_wrapper{
+    z-index: 1;
+    position:absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    visibility: hidden;
+   
+}
+iframe{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.close{
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+.close:hover{
+    cursor: pointer;
+}
+.formelement{
+    display:flex;
+    justify-content:space-between;
+}
+.formelement *{
+    margin: 10px;
+}
 @media screen and (max-width: 880px){
     .blurbcontainer{
         flex-direction: column;
