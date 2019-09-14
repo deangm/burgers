@@ -27,8 +27,10 @@ h1{
     }
     .text{
         width: 85%;
+        padding:0;
     }
     .photo img{
         width:80%;
     }
+    
 }
