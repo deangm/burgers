@@ -3,9 +3,11 @@
     max-height: 0;
     color: transparent;
     transition: all 1s ease-in-out;
-    
+    border-radius: 10px;
 }
-
+.question{
+    margin-bottom: 20px;
+}
 
 .question:hover + .answer{
    max-height: 500px;
@@ -23,6 +25,13 @@ p, h3{
 }
 .faq{
     margin: 30px;
+}
+div h1{
+    margin: 30px;
+}
+.thing{
+    position: absolute;
+    bottom:-20px;
 }
 @media screen and (max-width:700px){
     p{

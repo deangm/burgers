@@ -32,6 +32,10 @@
 }
 .foodcategory, .toppings, .extra{
     text-align:center;
+    margin: 30px;
+}
+.menutitle{
+    margin: 40px;
 }
 @media screen and (max-width:700px){
     p{
