@@ -25,20 +25,6 @@ h1{
     margin: 30px;
 }
 
-@media screen and (max-width:700px){
-  .maps{
-      flex-direction: column;
-      align-items: center;
-   
-  }
-    p{
-        font-size: 0.5em;
-        
-    }
-    h2, h1, h3{
-        font-size: .75em;
-    }
-}
 @media screen and (max-width: 835px){
     .maps iframe{
         width: 200px;
@@ -46,6 +32,18 @@ h1{
     }
 }
 @media screen and (max-width: 700px){
+    .maps{
+        flex-direction: column;
+        align-items: center;
+     
+    }
+      p{
+          font-size: 0.5em;
+          
+      }
+      h2, h1, h3{
+          font-size: .75em;
+      }
     .maps iframe{
         width: 150px;
         height: 150px;

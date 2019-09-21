@@ -23,6 +23,16 @@ body{
     background-attachment: fixed;
     
 }
+.logo{
+    display:flex;
+    align-items: center;
+   
+}
+i{
+    font-size: 2em;
+    color: cornflowerblue;
+    margin-left: 20px;
+}
 .logotext{
     font-size: 2em;
     margin:100px 0;
@@ -58,7 +68,9 @@ body{
     padding:10px;
     text-align:center;
     margin: 10px auto;
-
+}
+.blurb h1{
+    cursor: pointer;    
 }
 .nav{
     display:flex;
@@ -165,13 +177,11 @@ iframe{
     margin:0 auto;
 }
 
-@media screen and (max-width: 880px){
+
+@media screen and (max-width:880px){
     .blurbcontainer{
         flex-direction: column;
     }
-}
-
-@media screen and (max-width:880px){
     .logotext{
         font-size: 1.5em;
         width: 75%
